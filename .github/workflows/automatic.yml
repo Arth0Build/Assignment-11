@@ -19,9 +19,9 @@ jobs:
 
       - name: Compare the output 
         run: |
-                  diff -u test_data/test1.expected.txt test_data/test1_output.txt
-                  diff -u test_data/test2.expected.txt test_data/test2_output.txt
-                  diff -u test_data/test3.expected.txt test_data/test3_output.txt
+                  diff -u test_data/test1_expected.txt test_data/test1_output.txt
+                  diff -u test_data/test2_expected.txt test_data/test2_output.txt
+                  diff -u test_data/test3_expected.txt test_data/test3_output.txt
   
 
                
